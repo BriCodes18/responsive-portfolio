@@ -21,6 +21,12 @@ h2 {
 }
 
 h3 {
+  font-family: var(--heading-font);
+  font-size: 64px;
+  font-weight: normal;
+}
+
+.hero p {
   font-size: 24px;
   font-weight: normal;
   margin-bottom: 20px;
@@ -30,10 +36,54 @@ h3 {
   background: var(--accent-color);
   text-align: center;
   padding: 100px 20px;
+  margin-bottom: 20px;
 }
 
 .btn-branding {
   background: var(--branding-color);
   color: white;
   padding: 18px 30px;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.project-description p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.7;
+}
+
+.secondary-btn {
+  border: 1px solid var(--branding-color);
+  color: var(--branding-color);
+  padding: 18px 30px;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    padding: 80px 20px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 23px;
+  }
+
+  h3 {
+    font-size: 44px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
