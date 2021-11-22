@@ -88,6 +88,12 @@ margin-bottom: 30px;
     padding: 80px 20px;
   }
 
+  .about-hero {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  }
+
   h1 {
     font-size: 60px;
   }
